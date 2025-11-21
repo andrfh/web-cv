@@ -657,6 +657,20 @@
 
 /* Смартфоны */
 
+@media (max-width: 400px) {
+    .container {
+        max-width: 400px;
+        width: 400px;
+        margin: 0 auto;
+        text-wrap: wrap;
+    }
+    
+    .main_me > h1 {
+        text-wrap: wrap;
+    }
+}
+
+
 @media (max-width: 480px) {
     .container {
         max-width: 440px;
@@ -697,7 +711,7 @@
     }
 
     .section {
-        height: 150vh;
+        height: 120vh;
     }
 
     .main_me-name {

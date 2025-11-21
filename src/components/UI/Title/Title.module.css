@@ -36,6 +36,8 @@
   100% { opacity: 0.4; transform: translate(-50%, -50%) scale(1); }
 }
 
+
+
 @media (max-width: 768px) {
 
     .title > h2 {
